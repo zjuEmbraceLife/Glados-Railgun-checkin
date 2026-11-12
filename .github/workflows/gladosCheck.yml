@@ -8,7 +8,7 @@ on:
       - 'README.md'
       - 'imgs/**'
   schedule:
-    - cron: '18 9,12 * * *'
+    - cron: '18 */6 * * *'
       timezone: 'Asia/Shanghai'
 
 # 定时与手动触发可能重叠：同一时间只保留一个运行，避免重复签到与重复推送
